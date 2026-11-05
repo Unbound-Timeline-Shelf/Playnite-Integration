@@ -4,9 +4,9 @@ A Playnite 10 companion extension for library, two-way notes and save synchroniz
 with an Unnamed Tracking account. **0.3.0 adds optional remote start; 0.2.0 restored the recovered release.** The
 extension keeps the existing `net462` / PlayniteSDK 6.17.0 generic-plugin model.
 
-The maintained repository is [obsoletelabs/unnamed_tracking_playnite](https://github.com/obsoletelabs/unnamed_tracking_playnite).
+The maintained repository is [Unbound-Timeline-Shelf/Playnite-Integration](https://github.com/Unbound-Timeline-Shelf/Playnite-Integration).
 Recovered on 2026-10-07 from commit
-[`154f6d4`](https://github.com/obsoletelabs/unnamed_tracking_playnite/commit/154f6d45e504c9b04f20e08b865278a2b6ebdc8c),
+[`154f6d4`](https://github.com/Unbound-Timeline-Shelf/Playnite-Integration/commit/154f6d45e504c9b04f20e08b865278a2b6ebdc8c),
 it retains all 141 available historical commits and 18 original tags. The latest
 recovered tag is `v0.2.0-beta.3`, whose source declares version `0.1.2`; see the
 [recovered version history](wiki/docs/developer-guide/releases.md#recovered-version-history).
@@ -31,7 +31,7 @@ See the [user and developer wiki](wiki/docs/index.md) for the complete guide,
 
 ## Install and configure
 
-Install a reviewed `.pext` from [releases](https://github.com/obsoletelabs/unnamed_tracking_playnite/releases)
+Install a reviewed `.pext` from [releases](https://github.com/Unbound-Timeline-Shelf/Playnite-Integration/releases)
 or a GitHub Actions build artifact into Windows Playnite. In **Add-ons → Extension
 settings → Unnamed Tracking**, enter the server base URL and click **Sign in with your
 browser**: approve Playnite's access on the page that opens, and the extension finishes

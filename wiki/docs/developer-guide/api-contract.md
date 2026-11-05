@@ -3,17 +3,17 @@
 ## Verified host source
 
 Audited on 2026-10-02 against `Rosefall-a/unnamed_tracking_app` branch
-[`plugin-manager` at `45424fe6846587e2c25cbdafa882c621d2dbcd04`](https://github.com/Rosefall-a/unnamed_tracking_app/tree/45424fe6846587e2c25cbdafa882c621d2dbcd04).
+[`plugin-manager` at `45424fe6846587e2c25cbdafa882c621d2dbcd04`](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/tree/45424fe6846587e2c25cbdafa882c621d2dbcd04).
 The relevant game schema, status enum and archive routes also match application
 `main` at `b3bcb73dfbc77ad6ab457c23c85dbc384ffe53bc`. This is source-contract
 verification, not a live host/Playnite end-to-end test.
 
 Authoritative sources are
-[game schemas](https://github.com/Rosefall-a/unnamed_tracking_app/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/schemas/game.py),
-[game routes](https://github.com/Rosefall-a/unnamed_tracking_app/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/routes/games.py),
-[archive routes](https://github.com/Rosefall-a/unnamed_tracking_app/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/routes/game_archives.py),
-[status enum](https://github.com/Rosefall-a/unnamed_tracking_app/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/database/models/game.py), and
-[authentication](https://github.com/Rosefall-a/unnamed_tracking_app/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/core/auth.py).
+[game schemas](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/schemas/game.py),
+[game routes](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/routes/games.py),
+[archive routes](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/api/routes/game_archives.py),
+[status enum](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/database/models/game.py), and
+[authentication](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/45424fe6846587e2c25cbdafa882c621d2dbcd04/src/backend/src/core/auth.py).
 
 Requests use `Authorization: Bearer <credential>`: a `utd_` credential from
 browser sign-in, or a legacy `utk_` user API key on older servers. `utpm_`
@@ -23,7 +23,7 @@ directly and is not a Plugin API v1 gateway consumer.
 ## Sign-in (user-approved integration access)
 
 Implemented in `AccountLink.cs` against the host's
-[user-approved integration access](https://github.com/obsoletelabs/unnamed_tracking_app_2/blob/main/wiki/docs/integrations/user-delegation.md)
+[user-approved integration access](https://github.com/Unbound-Timeline-Shelf/Unbound-Timeline-Shelf/blob/main/wiki/docs/integrations/user-delegation.md)
 protocol v1.0, the same one the Discord Activity uses. All paths are under
 `/api/delegation/v1`.
 
@@ -163,7 +163,7 @@ updates only linked, nonignored games and does not upload artwork.
 
 ## Observation contract v1 (host `/api/playnite/*`)
 
-Host: `obsoletelabs/unnamed_tracking_app_2` issue #100 (documented there in
+Host: `Unbound-Timeline-Shelf/Unbound-Timeline-Shelf` issue #100 (documented there in
 `development/playnite-observations.md`). The extension is evidence only: it reports what the
 Playnite library holds, keyed by the stable Playnite game ID, and never creates, merges or splits
 canonical identities. The original library routes above stay in use for create, update, artwork

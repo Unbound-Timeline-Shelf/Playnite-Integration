@@ -1,9 +1,9 @@
 Id: UnnamedTrackingPlaynite
 Name: Unnamed Tracking
-Author: Obsoletelabs
+Author: Obsolete Labs
 Version: 0.3.0
 Module: UnnamedTrackingPlaynite.dll
 Type: GenericPlugin
 Links:
     - Name: Source
-      Url: https://github.com/obsoletelabs/unnamed_tracking_playnite
+      Url: https://github.com/Unbound-Timeline-Shelf/Playnite-Integration
