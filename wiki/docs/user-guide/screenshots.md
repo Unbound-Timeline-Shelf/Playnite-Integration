@@ -2,7 +2,7 @@
 
 Captured on 2026-10-18 from a portable **Playnite 10.62** on Windows 11, with the
 extension built from this repository and a local Unnamed Tracking server
-(host PR obsoletelabs/unnamed_tracking_app_2#276). Only the Playnite window was
+(host PR Unbound-Timeline-Shelf/Unbound-Timeline-Shelf#276). Only the Playnite window was
 captured.
 
 | View | Evidence |

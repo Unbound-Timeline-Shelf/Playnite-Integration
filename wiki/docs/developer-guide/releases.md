@@ -26,7 +26,7 @@ a release. No force-push, unrelated branch edits, or automatic PR merge is neede
 ## Recovered version history
 
 On 2026-10-07 the available local history of `Rosefall-a/UnnamedTrackingPlaynite`
-was restored to [obsoletelabs/unnamed_tracking_playnite](https://github.com/obsoletelabs/unnamed_tracking_playnite).
+was restored to [Unbound-Timeline-Shelf/Playnite-Integration](https://github.com/Unbound-Timeline-Shelf/Playnite-Integration).
 The recovery preserves 141 original commits and all 18 original tags, ending at
 `154f6d45e504c9b04f20e08b865278a2b6ebdc8c` (`v0.2.0-beta.3`). Source, regression
 tests, packaging workflows and the wiki are included; original authorship and

@@ -34,7 +34,7 @@
   signed-in settings, with the credential stored encrypted.
 - The portable test harness skips the symbolic-link save checks, with a message,
   on Windows accounts that cannot create symbolic links.
-- Requires host `obsoletelabs/unnamed_tracking_app_2#276` for sign-in; older hosts
+- Requires host `Unbound-Timeline-Shelf/Unbound-Timeline-Shelf#276` for sign-in; older hosts
   keep the API-key path. Breaking changes: None.
 - Report Playnite's state as source observations through the versioned host contract
   (`/api/playnite/*`): platform, last played, installed state, wishlist ownership and the complete
@@ -54,7 +54,7 @@
   versions, package validators and PEXT filename.
 - Preserve both recovered CI workflows and all validation checks, including
   regression coverage for explicit version validation and empty manifest fields.
-- Update the maintained source/release links to `obsoletelabs/unnamed_tracking_playnite`.
+- Update the maintained source/release links to `Unbound-Timeline-Shelf/Playnite-Integration`.
 
 The original `0.2.0` package embeds source commit `fd114c4` from 2026-10-03.
 That commit's build/release configuration is restored where available and
